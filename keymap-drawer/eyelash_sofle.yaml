@@ -93,9 +93,9 @@ layers:
   - {t: '-', s: _}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&bl BL_TOG'
-  - '&bl BL_INC'
-  - '&bl BL_DEC'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -106,8 +106,8 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {type: held}
-  - RGB OFF
-  - RGB ON
+  - RGB TOG
+  - RGB COLOR HSB(22,90,48)
   - RGB EFF
   - RGB EFR
   - RGB SPI
