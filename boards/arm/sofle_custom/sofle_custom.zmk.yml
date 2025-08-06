@@ -2,11 +2,13 @@ file_format: "1"
 id: sofle_custom
 name: Sofle Custom
 url: https://github.com/a741725193/zmk-sofle
-type: board
-arch: arm
+type: shield
 features:
   - keys
   - display
+  - encoder
+  - underglow
+  - studio
 outputs:
   - usb
   - ble
