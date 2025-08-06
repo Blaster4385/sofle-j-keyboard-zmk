@@ -9,9 +9,6 @@ manifest:
     - name: m165437
       url-base: https://github.com/M165437
   projects:
-    - name: sofle_custom
-      url: https://github.com/a741725193/zmk-sofle
-      revision: refactor
     - name: nice-view-gem
       remote: m165437
       revision: main
