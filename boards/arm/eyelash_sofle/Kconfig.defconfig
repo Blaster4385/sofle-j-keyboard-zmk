@@ -17,7 +17,7 @@ endif # BOARD_EYELASH_SOFLE_LEFT
 if BOARD_EYELASH_SOFLE_LEFT || BOARD_EYELASH_SOFLE_RIGHT
 
 config BOARD
-    default "eyelash_sofle"
+    default "sofle_custom"
 
 config BOARD_ENABLE_DCDC
     bool "Enable DCDC mode"
